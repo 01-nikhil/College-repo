@@ -1,0 +1,15 @@
+import React from "react";
+function check()
+{
+    alert("Message from JAVASCTIPT Alert!");
+    console.log("Message to developer");
+}
+function day1() {
+    return(
+        <div>
+            <h3>Let we see the output of JAVASCRIPT</h3>
+            <button onClick={check}>Click</button>
+        </div>
+    )
+}
+export default day1;
