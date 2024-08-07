@@ -1,0 +1,30 @@
+import React from "react";
+   class Set extends React.Component{
+   state={
+        name:"Show Message",
+        content:""
+    };
+    Change=()=>{
+    {
+        if(this.state.name=="Show Message"){
+            this.setState({content:"Hi!How are you?"})
+            this.setState({name:"Hide Message"},this.Content)
+        }
+        else{
+            this.setState({content:" "})
+            this.setState({name:"Show Message"},this.Content)
+        }
+    }
+}
+    render(){
+ 
+    return(
+        <div>
+
+    <button onClick={this.Change}>{this.state.name}</button>
+    <p>{this.state.content}</p>
+        </div>
+    )
+}
+   }
+export default Set;
